@@ -10,6 +10,10 @@ export default Ember.Component.extend({
         detail: this.get('detail')
       };
       this.sendAction('updateQuestion', params, question);
+      this.set('title', '');
+      this.set('author', '');
+      this.set('date', '');
+      this.set('detail', '');
     }
   }
 });
