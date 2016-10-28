@@ -7,4 +7,15 @@ export default Ember.Route.extend({
       answers: this.store.findAll('answer')
     });
   },
+  actions: {
+    updateQuestion(params, question) {
+      Object.keys(params).forEach(function(key){
+        if(params[key]!==undefined) {
+          question.set(key, params[key]);
+        }
+      });
+      question.save();
+      this.transitionTo("question");
+    }
+  }
 });
