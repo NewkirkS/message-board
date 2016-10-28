@@ -10,7 +10,7 @@ export default Ember.Component.extend({
         detail: this.get('detail')
       };
       if(params.title === undefined || params.author === undefined || params.date === undefined || params.detail === undefined) {
-        alert("Please fill out all fields");
+        alert("Please fill out all fields. (Hi Perry)");
       } else {
         this.sendAction('saveQuestion', params);
         this.set('title', undefined);
