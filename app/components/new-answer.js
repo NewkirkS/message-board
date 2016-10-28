@@ -9,10 +9,14 @@ export default Ember.Component.extend({
         content: this.get('content'),
         question: this.get('question')
       };
-      this.sendAction('saveAnswer', params);
-      this.set('answerauthor', '');
-      this.set('answerdate', '');
-      this.set('content', '');
+      if(params.answerauthor === undefined || params.answerdate === undefined || params.content === undefined) {
+        alert("Please fill out all fields. (Hi Perry)");
+      } else {
+        this.sendAction('saveAnswer', params);
+        this.set('answerauthor', undefined);
+        this.set('answerdate', undefined);
+        this.set('content', undefined);
+      }
     }
   }
 });
