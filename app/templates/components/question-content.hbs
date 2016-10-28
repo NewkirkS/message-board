@@ -4,4 +4,11 @@
   <p>{{question.detail}}</p>
   <hr>
   <p><span class="author">{{question.author}}</span> {{question.date}}</p>
+  {{#if updateActive}}
+    <div class="update-form">
+      <p>FORM GOES HERE</p>
+    </div>
+  {{else}}
+    <button class="btn" {{action "showUpdateForm"}}>Edit</button>
+  {{/if}}
 </div>
