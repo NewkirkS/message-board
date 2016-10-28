@@ -1,7 +1,13 @@
 # Message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _10-28-16_
+
+#### By _**Stephen Newkirk**_
+
+## Description
+
+_This website allows users to post questions and answers to questions._
+
 
 ## Prerequisites
 
@@ -13,7 +19,7 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+## Setup/Installation Requirements
 
 * `git clone <repository-url>` this repository
 * change into the new directory
@@ -25,29 +31,26 @@ You will need the following things properly installed on your computer.
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
 ### Building
 
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Support and contact details
 
-Specify what it takes to deploy your app.
+_Stephen Newkirk: newkirk771@gmail.com_
 
-## Further Reading / Useful Links
+## Technologies Used
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
++ HTML
++ CSS
++ Bootstrap
++ JavaScript
++ Ember
 
+
+### License
+
+*This webpage is licensed under the MIT license.*
+
+Copyright (c) 2016 **_Stephen Newkirk_**
