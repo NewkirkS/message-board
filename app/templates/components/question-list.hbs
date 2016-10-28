@@ -1,0 +1,10 @@
+{{#each model as |question|}}
+<div class="question">
+  <hr>
+  <h4>{{question.title}}</h4>
+  <ul>
+    <li>{{question.date}}</li>
+    <li class="author">{{question.author}}</li>
+  </ul>
+</div>
+{{/each}}
