@@ -1,5 +1,6 @@
 body {
-  padding-top: 70px;
+  padding-top: 125px;
+  padding-bottom: 100px;
 }
 
 ul {
@@ -8,4 +9,8 @@ ul {
 
 .author {
   font-style: italic;
+}
+
+.index-forms {
+  margin-top: 100px;
 }
